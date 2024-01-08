@@ -23,7 +23,7 @@ const data = [
 
 const Slider = () => {
     const [currentSlide, setCurrentSlide] = useState(0)
-
+    
   /*  useEffect(() => {
         const interval = setInterval(
             () => setCurrentSlide((prev) => (prev === data.length - 1 ? 0 : prev + 1)), 2000)
