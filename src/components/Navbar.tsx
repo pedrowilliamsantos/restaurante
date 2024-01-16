@@ -20,14 +20,15 @@ const Navbar = () => {
                 <Link href="/">Broca Food</Link>
             </div>
             {/*Mobile Menu*/}
-            <div className='md:hidden'>
+            <div className='md:hidden'> 
                 <Menu />
             </div>
             {/* right links*/}
+
             <div className='hidden md:flex gap-4 justify-end items-center flex-1'>
                 <div className=' md:absolute top-3 r-2 lg:static flex items-center gap-2 cursor-pointer bg-orange-300 px-1 rounded-md'>
                     <Image src="/phone.png" alt='' width={20} height={20}/>
-                    <span>123 456 678 </span>
+                    <span>61 9 9999-9999</span>
                 </div>
                 {!user ? (
                 <Link href="/login">Login</Link>
